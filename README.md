@@ -1,32 +1,31 @@
 # Sääennustesivusto
 
-Responsiivinen sääennustesivusto, joka on rakennettu käyttäen Bootstrap 5 -kirjastoa. Sivusto mahdollistaa reaaliaikaisen sääinformaation haun kaupunkien perusteella hyödyntäen OpenWeatherMap API:a.
-
-## Sisällysluettelo
-
-- [Projektin yleiskuvaus](#projektin-yleiskuvaus)
-- [Ominaisuudet](#ominaisuudet)
-- [Käytetyt teknologiat](#käytetyt-teknologiat)
-- [Asennus](#asennus)
-- [Käyttö](#käyttö)
-- [Testaus](#testaus)
-- [Lisenssi](#lisenssi)
+Responsiivinen sääennustesivusto, joka on rakennettu Bootstrap 5 -pohjalla. Sivusto mahdollistaa reaaliaikaisen säätiedon hakemisen eri kaupungeista käyttäen OpenWeatherMap API:a.
 
 ## Yleiskuvaus
 
-Sääennustesivusto tarjoaa ajantasaisia säätietoja eri kaupungeista ympäri maailmaa. Sivusto sisältää ominaisuuksia, kuten reaaliaikainen sääennustehaku, aiempien hakujen historia ja responsiivinen design, joka toimii hyvin sekä pöytäkoneilla että mobiililaitteilla.
+Sääennustesivusto tarjoaa käyttäjille mahdollisuuden hakea ajankohtaista säätietoa syöttämällä haluamansa kaupungin nimen. Sivusto on suunniteltu responsiiviseksi, joten se toimii hyvin sekä mobiililaitteilla että pöytäkoneilla. Sivustolla on selkeä ja helppokäyttöinen käyttöliittymä.
 
 ## Ominaisuudet
 
-- **Reaaliaikainen sääennustehaku:** Käyttäjät voivat hakea säätietoja syöttämällä kaupungin nimen.
-- **Säätiedot:** Sivusto näyttää nykyisen lämpötilan, kosteuden, tuulen nopeuden ja sääkuvauksen.
-- **Hakuhistoria:** Sivusto tallentaa aiemmat haut, jotta käyttäjät voivat helposti palata niihin.
-- **Responsiivinen design:** Sivusto on täysin responsiivinen ja toimii eri laitteilla ja näyttöko'oilla.
-- **Bootstrap-tyylit:** Käyttää Bootstrap 5 -kirjastoa moderniin ja responsiiviseen suunnitteluun.
+- **Reaaliaikainen sääennustehaku:** Käyttäjä voi hakea säätiedot syöttämällä kaupungin nimen hakukenttään.
+- **Säätietojen esitys:** Näyttää lämpötilan, kosteuden, tuulen nopeuden ja säätilan kuvauksen.
+- **Hakuhistoria:** Aiemmat haut tallennetaan sivustolle, jolloin käyttäjä voi helposti tarkastella niitä uudelleen.
+- **Responsiivinen design:** Sivusto mukautuu eri näyttökokoihin ja toimii hyvin sekä mobiililaitteilla että pöytäkoneilla.
+- **Bootstrap 5 -tyylit:** Sivusto käyttää Bootstrap 5 -kirjastoa tyylittelyyn, mikä takaa modernin ja yhtenäisen ulkoasun.
 
-## Käytetyt teknologiat
+## Teknologiat
 
 - **HTML5 & CSS3**
 - **Bootstrap 5**
 - **JavaScript**
 - **OpenWeatherMap API**
+
+## Käyttöohjeet
+
+API-avain:
+Hanki API-avain OpenWeatherMapista ja lisää se index.html tiedostossa olevaan JavaScript-koodiin kohdassa const apiKey = 'YOUR_API_KEY';.
+
+Sivuston käyttö:
+Syötä kaupungin nimi hakukenttään ja paina "Get Weather" -painiketta.
+Sivusto hakee säätiedot ja näyttää ne käyttöliittymässä.
