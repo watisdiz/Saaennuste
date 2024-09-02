@@ -23,9 +23,5 @@ Sääennustesivusto tarjoaa käyttäjille mahdollisuuden hakea ajankohtaista sä
 
 ## Käyttöohjeet
 
-API-avain:
-Hanki API-avain OpenWeatherMapista ja lisää se index.html tiedostossa olevaan JavaScript-koodiin kohdassa const apiKey = 'YOUR_API_KEY';.
-
-Sivuston käyttö:
-Syötä kaupungin nimi hakukenttään ja paina "Get Weather" -painiketta.
-Sivusto hakee säätiedot ja näyttää ne käyttöliittymässä.
+- **API-avain:** Hanki API-avain OpenWeatherMapista ja lisää se index.html tiedostossa olevaan JavaScript-koodiin kohdassa const apiKey = 'YOUR_API_KEY';.
+- **Sivuston käyttö:** Syötä kaupungin nimi hakukenttään ja paina "Get Weather" -painiketta. Sivusto hakee säätiedot ja näyttää ne käyttöliittymässä.
